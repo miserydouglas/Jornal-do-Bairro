@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+body{
+    background-color: #24252A;
+}
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: rgb(69, 69, 69);
+}
+
+h1{
+    font-family: 'Heebo', sans-serif;
+    color:dodgerblue;
+    
+}
+
+li, a{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+section,img{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(69, 69, 69); 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    
+    
+}
+
+article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: rgb(69, 69, 69);
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    padding: 5px;
+}
+
+footer{
+    background-color: rgb(69, 69, 69);
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    padding: 3px;
+    text-align: center;
+
+}
+
