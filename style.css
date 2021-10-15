@@ -16,10 +16,33 @@ header{
     background-color: rgb(69, 69, 69);
 }
 
-h1{
+#titulo{
     font-family: 'Heebo', sans-serif;
     color:dodgerblue;
+    position: relative;
+    transition:ease-in-out 3s;
+    animation: cores 20s linear 0s infinite normal forwards;
     
+}
+
+#titulo:hover{
+    animation: bounce .5s ease-in-out 0s infinite alternate;
+}
+
+
+@keyframes bounce{
+    
+    from{left: 0; }
+    to  {left: -30px;}
+}
+
+@keyframes cores{
+
+    1%  {color: dodgerblue;}
+    33% {color: rgb(63, 168, 63);}
+    66% {color: rgb(255, 60, 0);}
+    100% {color: rgb(56, 189, 189);}
+
 }
 
 li, a{
@@ -31,6 +54,21 @@ li, a{
     display: inline-block;
     padding: 0px 20px;
 }
+#linksection:visited{
+color: rgb(27, 209, 154);
+}
+
+#linksection:link{
+    color: pink;
+    }
+
+
+.acor:hover{
+    color: tomato;
+    transition: .9s;
+
+}
+
 
 section,img{
     font-family: 'Heebo', sans-serif;
